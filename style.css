@@ -1,0 +1,56 @@
+/* Start of All Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans Arabic", sans-serif;
+  font-size: 18px;
+  color: #333;
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background-color: #a8dcf0;
+}
+/* End of All Selector */
+
+/* Start of title */
+h1 {
+  text-transform: uppercase;
+}
+/* End of title */
+
+/* Start of counter number */
+.counter-preview {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #333;
+}
+/* End of counter number */
+
+/* Start of buttons style */
+button {
+  font-family: "Noto Sans Arabic", sans-serif;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.increase {
+  background-color: #4caf50;
+}
+.reset {
+  background-color: #f44336;
+}
+.decrease {
+  background-color: #2196f4;
+}
+/* End of buttons style */
