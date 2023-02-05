@@ -40,6 +40,16 @@ body {
 }
 /* End of background color animation */
 
+/* Start of container */
+.container {
+  background-color: #a8dcf0;
+  padding: 50px 20.5px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 20px 20px 50px 15px rgb(87, 87, 87);
+}
+/* End of container */
+
 /* Start of title */
 h1 {
   text-transform: uppercase;
@@ -50,6 +60,7 @@ h1 {
 .counter-preview {
   font-size: 8rem;
   font-weight: bold;
+  text-align: center;
   color: #333;
 }
 /* End of counter number */
@@ -63,6 +74,10 @@ button {
   border-radius: 5px;
   font-size: 15px;
   cursor: pointer;
-  margin-left: 25px;
+}
+.buttons {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
 }
 /* End of buttons style */
