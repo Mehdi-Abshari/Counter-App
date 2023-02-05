@@ -44,13 +44,4 @@ button {
   cursor: pointer;
   margin-left: 25px;
 }
-.increase {
-  background-color: #4caf50;
-}
-.reset {
-  background-color: #f44336;
-}
-.decrease {
-  background-color: #2196f4;
-}
 /* End of buttons style */
