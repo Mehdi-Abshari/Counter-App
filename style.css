@@ -15,9 +15,30 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 90vh;
-  background-color: #a8dcf0;
+  /* background-color: #a8dcf0; */
+  animation: changeBg 6s infinite alternate linear;
 }
 /* End of All Selector */
+
+/* Start of background color animation */
+@keyframes changeBg {
+  0% {
+    background-color: #ee6055;
+  }
+  25% {
+    background-color: #60d394;
+  }
+  50% {
+    background-color: #aaf683;
+  }
+  75% {
+    background-color: #ffd97d;
+  }
+  100% {
+    background-color: #ff9b85;
+  }
+}
+/* End of background color animation */
 
 /* Start of title */
 h1 {
